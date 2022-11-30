@@ -68,7 +68,7 @@ const VerifyMBI = ({host}) => {
             <div className="col">
                 { err && <div className="error alert alert-danger" role="alert">{err}</div> }  
                 { isValid === "true" &&
-                    <div className="result alert alert-success" role="alert">MBI: {verifyMBI} is valid</div> 
+                    <div className="result alert alert-success" role="alert">MBI is valid</div> 
                 }
                 { isValid === "false" &&
                     <div className="result alert alert-danger" role="alert">MBI is NOT valid.  Please try again...</div> 
